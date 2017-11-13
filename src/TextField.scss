@@ -1,0 +1,9 @@
+@import "../node_modules/bootstrap/scss/forms";
+
+.textfield__input {
+    @extend .form-control;
+}
+
+.textfield__label {
+    color: cadetblue;
+}
