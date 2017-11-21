@@ -1,5 +1,7 @@
 @import "index";
 
+@import "Styleguide";
+
 .textfield {
     @extend .form-group;
 }
@@ -9,5 +11,5 @@
 }
 
 .textfield__label {
-    color: cadetblue;
+    color: $field-label-color;
 }
